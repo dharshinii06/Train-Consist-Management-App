@@ -18,6 +18,10 @@ class Bogie {
     public String toString() {
         return name + " -> Capacity: " + capacity;
     }
+
+    public int getCapacity() {
+        return capacity;
+    }
 }
 
 public class TrainConsistManagementApp {
